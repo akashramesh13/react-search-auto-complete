@@ -1,0 +1,27 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#search-container__search-box {
+  width: 500px;
+  padding: 10px;
+}
+
+#search-container__result {
+  width: 500px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.search-container__result-item {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-container__result-item:hover {
+  background-color: beige;
+}
